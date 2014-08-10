@@ -166,7 +166,7 @@
     {
         @try
         {
-            character.physicsBody.velocity = ccp(80.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
+            character.physicsBody.velocity = ccp(160.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 400.f));
             
             [super update:delta];
         }
